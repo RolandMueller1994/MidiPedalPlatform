@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCBLib")(type "KiCad")(uri "/home/roland/Projects/Libraries/PCBLib.pretty")(options "")(descr ""))
+  (lib (name "BluControl")(type "KiCad")(uri "/home/roland/Projects/Amp1Control/BluControl/BluBoxParts.pretty")(options "")(descr ""))
+  (lib (name "Components")(type "KiCad")(uri "/home/roland/Projects2/Templates/PedalTemplate/PCB/Components/Components.pretty")(options "")(descr ""))
+)

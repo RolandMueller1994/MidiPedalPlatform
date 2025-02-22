@@ -1,0 +1,154 @@
+(footprint "Switch_SPDT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ecc6ad1b-862f-4c84-948b-ad0f3e44603d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Switch_SPDT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe92479d-8098-4d01-8aef-e4fdaa61d4a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c96c3aa3-f1ff-4d56-b2d3-fe25f1e2d557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53316e21-3820-4d8d-9d19-b02966579e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f19f38f6-c0ff-464c-a162-69ea7a2096ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -6.6)
+		(end 4 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e2f7ee91-8936-42fe-af72-2c1a1869db46")
+	)
+	(fp_rect
+		(start -3.9 6.5)
+		(end 3.9 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f6be52a0-a583-42a5-be71-5b42baec4984")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "90cf8717-eec6-4b94-9528-99bd9697bb74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 3 1.6)
+		(drill oval 2.2 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "cf392f49-1754-4a07-9654-f048c0488d7b")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -4.7)
+		(size 3 1.6)
+		(drill oval 2.2 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "eab5362b-1f58-46e8-a59e-3442222e8507")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4.7)
+		(size 3 1.6)
+		(drill oval 2.2 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "dbdaf82c-c141-4d45-a548-67d17ad4e923")
+	)
+	(model "../Components.3dshapes/1MS3T1B1M2QES.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

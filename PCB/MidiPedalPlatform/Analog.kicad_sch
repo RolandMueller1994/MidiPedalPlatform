@@ -1,0 +1,826 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "71d0d835-0c02-46c5-b6a6-4f009e823eea")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 85.09 53.34)
+		(uuid "008c8c10-39a6-4d53-984a-06ad268ca592")
+	)
+	(no_connect
+		(at 91.44 74.93)
+		(uuid "012690f1-1a47-41cc-92a6-e0ab6d06be7f")
+	)
+	(no_connect
+		(at 77.47 53.34)
+		(uuid "013ac353-1f91-4ea3-ae17-5883dfee92a1")
+	)
+	(no_connect
+		(at 77.47 69.85)
+		(uuid "0655b400-3700-4d08-b090-770bcedc5366")
+	)
+	(no_connect
+		(at 77.47 50.8)
+		(uuid "0f38880c-c765-416e-bea5-ed1862a16fca")
+	)
+	(no_connect
+		(at 91.44 69.85)
+		(uuid "14d44d88-75c8-4c96-992f-662fc1e2f39e")
+	)
+	(no_connect
+		(at 111.76 74.93)
+		(uuid "29f2d9dd-d5a1-4f5d-b061-bc60b7700deb")
+	)
+	(no_connect
+		(at 95.25 78.74)
+		(uuid "5a8ee7e2-eb2a-4d08-889d-d144056393b0")
+	)
+	(no_connect
+		(at 77.47 74.93)
+		(uuid "6b3dd270-3476-459b-b8bf-48bf57de49c5")
+	)
+	(no_connect
+		(at 77.47 62.23)
+		(uuid "8fbd671b-5d28-47c6-a3c6-093adb975c66")
+	)
+	(no_connect
+		(at 77.47 48.26)
+		(uuid "91c20c2d-3ea8-4162-86ab-a45a88fbaed0")
+	)
+	(no_connect
+		(at 101.6 72.39)
+		(uuid "96c604a9-afb7-4577-aeab-60b0acc41fdf")
+	)
+	(no_connect
+		(at 91.44 82.55)
+		(uuid "9b55c199-07a0-4784-bc83-0da3fd979556")
+	)
+	(no_connect
+		(at 91.44 62.23)
+		(uuid "aa9e87e2-dddc-4b0b-8bf7-58fd8796e6ad")
+	)
+	(no_connect
+		(at 77.47 82.55)
+		(uuid "ad1d7c2b-a23b-45c6-8009-3782176c29fa")
+	)
+	(no_connect
+		(at 95.25 66.04)
+		(uuid "c500b56f-fddc-40da-9cde-9810bbfe1440")
+	)
+	(no_connect
+		(at 111.76 69.85)
+		(uuid "ce49c3a3-ddd8-4263-9d35-72745abcf5cc")
+	)
+	(no_connect
+		(at 81.28 66.04)
+		(uuid "dd02d2f3-161c-4a9f-9460-95a4fa75013b")
+	)
+	(no_connect
+		(at 81.28 78.74)
+		(uuid "de057e26-5be8-494e-98f5-9b8243e3995e")
+	)
+	(hierarchical_label "VSS"
+		(shape input)
+		(at 77.47 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6efcfcf7-134b-4ce4-86cc-4e27f1baac93")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 77.47 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9560a22-ab0c-4502-bb75-baf6a783d9ea")
+	)
+	(hierarchical_label "out"
+		(shape output)
+		(at 85.09 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0af593c-79ee-47ab-805f-d20eafa8d4d5")
+	)
+	(hierarchical_label "in"
+		(shape input)
+		(at 77.47 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa8e86b1-3b2f-448d-ba0f-19d0b1e67755")
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 77.47 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29e7f5d0-6053-4fcb-ab15-55a8be6b270d")
+		(property "Reference" "RV1"
+			(at 74.93 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 74.93 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Components:RV16AF_Mono"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 77.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41168800-d6a6-4cbf-8f4a-92fad2902dfd")
+		)
+		(pin "3"
+			(uuid "3b55c2d9-3c29-4dde-ade0-b0f25feb60d6")
+		)
+		(pin "2"
+			(uuid "61d50201-7629-4f6a-9b3b-8024daa3bca5")
+		)
+		(instances
+			(project "MidiPedalPlatform"
+				(path "/9621a250-9324-498d-aa8e-1a0dc8f2d136/c1b88de2-c486-4c6d-9ba9-525bcdbcc3b5"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 106.68 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd00e31-c2dd-4e99-8d4e-fd34991a1788")
+		(property "Reference" "SW1"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Components:Switch_SPDT"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1e95237a-59ff-42ba-94f4-d690c5820172")
+		)
+		(pin "1"
+			(uuid "2d8122ff-3117-4a51-bfcd-69779a4aab7e")
+		)
+		(pin "2"
+			(uuid "4e81980c-82c3-441f-aa48-fd9024cfbb59")
+		)
+		(instances
+			(project ""
+				(path "/9621a250-9324-498d-aa8e-1a0dc8f2d136/c1b88de2-c486-4c6d-9ba9-525bcdbcc3b5"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 77.47 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "713acfb2-3221-402e-88de-ebc2bd5600fe")
+		(property "Reference" "RV2"
+			(at 74.93 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 74.93 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Components:RV16AF_Mono"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1262a86-0832-456e-be7c-6293e9f014c0")
+		)
+		(pin "3"
+			(uuid "d1bc6927-3b12-4505-8414-d718c2b1e44b")
+		)
+		(pin "2"
+			(uuid "41b09a1d-dc39-4ee4-a6f9-63b92abb773e")
+		)
+		(instances
+			(project "MidiPedalPlatform"
+				(path "/9621a250-9324-498d-aa8e-1a0dc8f2d136/c1b88de2-c486-4c6d-9ba9-525bcdbcc3b5"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 91.44 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8f002a2-0370-43b0-a199-72d743742b55")
+		(property "Reference" "RV4"
+			(at 88.9 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 88.9 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Components:RV16AF_Mono"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486bf111-e485-4197-b348-a579c0ea6129")
+		)
+		(pin "3"
+			(uuid "92543001-8732-40dd-ab6e-648b20475b95")
+		)
+		(pin "2"
+			(uuid "e553efe9-135a-4cab-80a9-173b83b39c9f")
+		)
+		(instances
+			(project "MidiPedalPlatform"
+				(path "/9621a250-9324-498d-aa8e-1a0dc8f2d136/c1b88de2-c486-4c6d-9ba9-525bcdbcc3b5"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 91.44 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aba6ef51-092e-4222-a710-a2ac7549896f")
+		(property "Reference" "RV3"
+			(at 88.9 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B100k"
+			(at 88.9 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Components:RV16AF_Mono"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a86c63-8c2f-4261-96b3-97ba0b2014ff")
+		)
+		(pin "3"
+			(uuid "2717905c-cf66-46de-8452-a9d277320828")
+		)
+		(pin "2"
+			(uuid "048dd90a-cb89-4027-9f53-d4d9e074039b")
+		)
+		(instances
+			(project "MidiPedalPlatform"
+				(path "/9621a250-9324-498d-aa8e-1a0dc8f2d136/c1b88de2-c486-4c6d-9ba9-525bcdbcc3b5"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
