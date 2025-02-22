@@ -1,3 +1,6 @@
+# Freecad
+*.FCBak
+
 # Launch files
 *.launch
 
