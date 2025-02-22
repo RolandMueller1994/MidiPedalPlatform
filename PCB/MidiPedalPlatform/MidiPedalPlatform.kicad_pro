@@ -511,7 +511,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Projects2/Templates/PedalTemplate/Enclosure/PCB.step",
+      "step": "../../Enclosure/PCB.step",
       "svg": "",
       "vrml": ""
     },
