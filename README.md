@@ -1,4 +1,4 @@
-# PedalTemplate
+# MidiPedalPlatform
 
 ## Introduction
 
