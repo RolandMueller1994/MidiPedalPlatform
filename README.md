@@ -13,7 +13,7 @@ Following images show a complete pedal build based on this template.
 
 ## PCB
 
-The PCB was developed using KiCad and a two layer setup. The KiCad project can be found in PCB/MidiPedalPlatform whilst PCB and schematic export are located in [PCB/Export](PCB/Export).
+The PCB was developed using KiCad and a two layer setup. The KiCad project can be found in [PCB/MidiPedalPlatform](PCB/MidiPedalPlatform) whilst PCB and schematic export are located in [PCB/Export](PCB/Export).
 
 <img src="Image/MidiPedalPlatform_Top.png" width="600">
 <img src="Image/MidiPedalPlatform_Bottom.png" width="600">
