@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/roland/Projects2/Templates/PedalTemplate/PCB/Export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../Enclosure/PCB.step",
