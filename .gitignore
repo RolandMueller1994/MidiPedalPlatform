@@ -39,8 +39,8 @@ PCB/MidiPedalPlatform/MidiPedalPlatform-backups*
 *.m
 
 # Eclipse CDT project files
-.cproject
-.project
+# .cproject
+# .project
 .settings/
 
 # Vagrant directory
